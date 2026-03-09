@@ -1,0 +1,4 @@
+database/wal_log/
+database/base_backup/
+*.tar.gz
+test_file
