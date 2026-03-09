@@ -15,6 +15,8 @@ CREATE TABLE products (
     product_id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     brand VARCHAR(50),
+    name VARCHAR(20) NOT NULL,
+    brand VARCHAR(20),
     category VARCHAR(20),
     price NUMERIC(12, 2) NOT NULL,
     stock INT NOT NULL,
